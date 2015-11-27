@@ -26,8 +26,7 @@ import com.ensemble.models.UserDao;
 @RestController
 public class MainController {
 
-	@Autowired
-	  private MessageSource msgSource;
+	
 	/**
 	   * Create a new user with an auto-generated id and email and name as passed 
 	   * values.
