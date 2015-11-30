@@ -9,7 +9,7 @@ import org.springframework.context.support.ReloadableResourceBundleMessageSource
 public class SpringbootGradleMysqlSpringdatajpaHibernateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootGradleMysqlSpringdatajpaHibernateApplication.class, args)
+        SpringApplication.run(SpringbootGradleMysqlSpringdatajpaHibernateApplication.class, args);
     }
     
     @Bean(name = "messageSource")
